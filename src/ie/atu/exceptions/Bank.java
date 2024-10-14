@@ -25,6 +25,7 @@ public class Bank {
         if(wd < 1){
             throw new InsufficientFundsException("You cannot withdraw less than €1.");
         }
+        System.out.println("Withdraw successful.");
     }
 }
 

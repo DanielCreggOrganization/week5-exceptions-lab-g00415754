@@ -22,5 +22,6 @@ public class GradingSystem {
         if(grade > 100 || grade < 0){
             throw new IllegalArgumentException("Invalid grade.");
         }
+        System.out.println("Grade is valid.");
     }
 }
