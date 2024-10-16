@@ -28,9 +28,6 @@ public class MenuExample {
                     userInput.nextLine(); // Clear the buffer
                 }
             }
-
-            userInput.close();
-            // System.out.println("Scanner closed.");
         }
 
     }
